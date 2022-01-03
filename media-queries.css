@@ -17,6 +17,7 @@
     list-style-type: none;
     padding: 10px;
     margin: 10px;
+
 }
 
 img {
@@ -62,15 +63,21 @@ section {
 
     img {
         height: 224px;
-        width: 339px;
+        width: 100%;
+        margin:auto;
+
     }
 
     section {
         text-align: left;
+        display: flex;
+        flex-direction: column;
     }
 
     .sub-section {
         font-style: italic;
+        display: flex;
+        flex-direction: column;
     }
 }
 
