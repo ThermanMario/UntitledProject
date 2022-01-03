@@ -1,7 +1,33 @@
 * {
     background-color: #f3f3f3;
+    font-family: "Times New Roman";
+
+}
+.master {
+    display: flex;
+    flex-direction: row;
+}
+.main {
+   /* text-align: left;*/
+    display: flex;
+    flex-direction: column;
 }
 
+.sub-section {
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    position: relative;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: "Times New Roman";
+}
+.alert-info {
+    display: none;
+}
 
 .nav-links {
     display: flex;
@@ -20,9 +46,10 @@
 }
 
 a {
-    color: grey;
 
 }
+
+
 
 a:hover {
 
