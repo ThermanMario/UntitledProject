@@ -32,6 +32,7 @@ h3 {
 }
 h1, h3 {
     color: aliceblue;
+    position: relative;
 }
 /*img {
     position: absolute;
@@ -65,6 +66,11 @@ h1, h3 {
     background: rgba(255, 255, 255, 0.01) url(https://ak.picdn.net/shutterstock/videos/1051339468/thumb/9.jpg?ip=x480) space;
 
 }
+.search {
+    display: flex;
+    justify-content: right;
+    margin: 16px 6px 10px 6px;
+}
 
 
 .nav-two {
@@ -96,6 +102,11 @@ h1, h3 {
 .menu li {
     list-style: none;
     margin: 0 10px;
+    /* transform: scale(.6%); */
+}
+.menu li:hover {
+    text-decoration: red underline;
+    transition: width 2s;
 }
 .menu li a {
     text-decoration: none;
