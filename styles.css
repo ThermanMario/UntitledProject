@@ -31,6 +31,7 @@ h3 {
     font-weight: 400;
 }
 h1, h3 {
+    margin: auto;
     color: aliceblue;
     position: relative;
 }
@@ -163,6 +164,19 @@ button.top-btn {
 
 button a {
 color: whitesmoke;
+}
+.card-holder {
+    display: flex;
+}
+.card {
+    height: 75px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: white;
+    /*opacity: .5%;*/
+    flex-direction: row;
+    justify-content: center;
+    sc
 }
 footer, small {
 
