@@ -176,8 +176,18 @@ color: whitesmoke;
     /*opacity: .5%;*/
     flex-direction: row;
     justify-content: center;
-    sc
+    flex: 0 0 auto;
+    margin-right: 5px;
 }
+.card-holder {  display: flex;  flex-wrap: nowrap;  overflow-x: auto;
+}
+.card-text {
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
 footer, small {
 
     background-color: #000;
