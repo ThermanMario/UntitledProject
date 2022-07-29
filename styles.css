@@ -217,3 +217,16 @@ border: solid white 4px;
     /*margin: 0 0 0 80vw;*/
     border: solid green 4px
 }
+.tableOfContents {
+
+/*
+display: flex;
+*/
+}
+
+.tableOfContentsLinks {
+    color: ghostwhite;
+
+    text-decoration: none;
+    margin: auto;
+}
