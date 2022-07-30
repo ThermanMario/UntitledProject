@@ -210,6 +210,9 @@ footer, small {
     justify-content: space-between;
     margin-top: 100%;
 }
+.footer a {
+    flex-direction: row;
+}
 .footer-left {
 border: solid white 4px;
 }
