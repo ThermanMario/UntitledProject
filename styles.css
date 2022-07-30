@@ -209,6 +209,7 @@ footer, small {
     display: flex;
     justify-content: space-between;
     margin-top: 100%;
+    background-color: #161919;
 }
 .footer a {
     flex-direction: row;
